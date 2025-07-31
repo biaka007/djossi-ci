@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
               <button
                 onClick={() => {
                   const message = encodeURIComponent('Bonjour! J\'aimerais en savoir plus sur les services Djossi.');
-                  window.open(`https://wa.me/+5244431137845?text=${message}`, '_blank');
+                  window.open(`https://wa.me/+524443113785?text=${message}`, '_blank');
                 }}
                 className="border-2 border-green-600 text-green-400 px-8 py-4 rounded-lg font-semibold hover:bg-green-600 hover:text-white transition-colors inline-flex items-center justify-center"
               >
